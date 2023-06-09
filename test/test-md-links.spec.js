@@ -1,6 +1,4 @@
-const mdLinks = require('../');
-
-
+const mdLinks = require('..');
 describe('mdLinks', () => {
 
   it('should...', () => {

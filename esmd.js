@@ -8,4 +8,4 @@ const linkMd = (ruta) => {
   }
   return ruta;
 };
-console.log(linkMd('/Users/Refsnes/demo_path.md'));
+//console.log(linkMd('/Users/Refsnes/demo_path.md'));

@@ -48,13 +48,14 @@ const readingFile = (path = '') => new Promise((resolve, reject) => {
   });
 });
 
+/*
 readingFile('C:/Users/carol/Desktop/Laboratoria/DEV005-md-links-lite/linksprueba.md')
   .then((res) => {
-    console.log(res, 46);
+    console.log(res, 53);
     validateLinks(res);
   })
   .catch((err) => {
-    console.error(err.message, 49);
+    console.error(err.message, 57);
   });
-
+*/
 module.exports = { getLinks, readingFile };

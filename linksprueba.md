@@ -3,4 +3,8 @@
 [goole](https://www.youtube.com/watch?v=rUxyKA_-grg&ab_channel=LofiGirl)
 [goole](https://www.ilossilos.cl/locales-comerciales-2/?gad=1&gclid=CjwKCAjwg-GjBhBnEiwAMUvNW0DDrjr-0BG8ncLfXCRJQSDfGq1Akp6dZhehEPGF6ZNYelh6Rjs37BoCtO8QAvD_BwE)
 [goole](https://www.toctoc.com/arriendo/local-comercial/metropolitana/santiago)
+// error es cuando el link no existe (catch)
 [google](http://wwww.carolrobles.com)
+[Error](https://googlx.com)
+// pixar es cuando la página no se encuentra (else)
+[Pixar](https://www.pixar.com/error404)

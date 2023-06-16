@@ -8,4 +8,4 @@ const linkMd = (ruta) => {
   }
   return ruta;
 };
-//console.log(linkMd('/Users/Refsnes/demo_path.md'));
+module.export = { linkMd };

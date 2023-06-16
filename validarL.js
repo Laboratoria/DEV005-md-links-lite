@@ -1,4 +1,5 @@
-const fetch = require('node-fetch');
+/* eslint-disable no-param-reassign */
+// const fetch = require('node-fetch');
 
 const validateLinks = (objetoLink) => fetch(objetoLink.href)
   .then((response) => {
@@ -6,15 +7,15 @@ const validateLinks = (objetoLink) => fetch(objetoLink.href)
       objetoLink.status = response.status;
       objetoLink.statusText = 'OK';
     } else {
-      objetoLink.status = response.status;
-    objetoLink.statusText = 'fail';
-    } 
+      objetoLink.status = response.status; // else la pagina nose encuentra (pixar)
+      objetoLink.statusText = 'fallo';
+    }
     return objetoLink;
   })
-  .catch((error) => {
-    objetoLink.statusText = 'fail';
-    objetoLink.status = '404'
+  .catch(() => {
+    objetoLink.statusText = 'fail'; // en catch el link no existe (googlex.com)
+    objetoLink.status = '404';
     return objetoLink;
   });
-// validateLinks(prueba)
+
 module.exports = { validateLinks };

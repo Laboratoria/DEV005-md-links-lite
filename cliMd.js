@@ -1,14 +1,10 @@
-// --valide (controlar si no false)---
 // ejecución de funcion mdlinks (cli)
-
-//const fetch = require('node-fetch');
+// eslint-disable-next-line import/extensions
 const mdLinks = require('./index.js');
-console.log(mdLinks)
+
 mdLinks('./linksprueba.md', { validate: true }).then((result) => {
-  console.log(result); 
+  console.log(result);
 })
   .catch((error) => {
     console.error(error);
   });
-
-//module.exports = mdLinks;

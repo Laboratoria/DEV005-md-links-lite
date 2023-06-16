@@ -7,7 +7,7 @@ const fs = require('fs');
 const markDownIt = require('markdown-it');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const { JSDOM } = require('jsdom');
-const validateLinks = require('./validarLinks.js');
+// const validateLinks = require('./validarLinks.js');
 
 // console.log(ruta);
 // extracción de links
@@ -48,14 +48,4 @@ const readingFile = (path = '') => new Promise((resolve, reject) => {
   });
 });
 
-/*
-readingFile('C:/Users/carol/Desktop/Laboratoria/DEV005-md-links-lite/linksprueba.md')
-  .then((res) => {
-    console.log(res, 53);
-    validateLinks(res);
-  })
-  .catch((err) => {
-    console.error(err.message, 57);
-  });
-*/
 module.exports = { getLinks, readingFile };

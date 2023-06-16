@@ -9,7 +9,7 @@ const routeExists = (path = ' ') => {
 
 // ruta absoluta o ruta relativa, sino se transforma en ruta absoluta
 const resolveRoute = (path) => {
-  const tengoRuta = routeExists(path)
+  const tengoRuta = routeExists(path);
   if (!tengoRuta) return undefined;
   const nuevaRuta = ruta.isAbsolute(path);
   const rutatransformada = ruta.resolve(path);

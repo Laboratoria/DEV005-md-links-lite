@@ -18,7 +18,7 @@ Es un programa de líneas de comandos (CLI) y una biblioteca que permite analiza
 En este proyecto crearás una herramienta de línea de comando así como tu
 propia librería (o biblioteca - library) en JavaScript.
 
-![Diagrama](IMG/Diagrama.png) 
+![Diagrama](diagrama.png) 
 
 
 ## 3. Modo de Uso
